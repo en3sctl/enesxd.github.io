@@ -1,0 +1,9 @@
+/* ekran boyutu 1200pxden azsa menuyu göstermez! */
+@media screen and (max-width: 1200px) { 
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
